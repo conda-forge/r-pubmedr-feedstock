@@ -1,4 +1,4 @@
-{% set version = "1.0.0" %}
+{% set version = "1.0.2" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/pubmedR_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/pubmedR/pubmedR_{{ version }}.tar.gz
-  sha256: 46a558b1aa163e1689e3971f95665b0ed8477e32e07482a10fde6b7a74a82181
+  sha256: fe0db80ea2f9cc8bf1d19db147170eb077fc50bf673d0b250cd84cb5ad460cdd
 
 build:
   number: 0
